@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+		int N, b, h, area;
+		cin>>N;
+		for (int i=1; i<=N; i++){
+		cin>>b;
+		cin>>h;
+		area= b*h/2;
+		cout<<area<<endl;
+		}
+	return 0;
+	
+}
